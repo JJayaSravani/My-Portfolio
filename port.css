@@ -1,0 +1,273 @@
+*{
+margin: 5px;
+}
+.nav
+{
+    position: sticky;
+    top : 0;
+    z-index: 10;
+}
+.nav-link
+{
+  color: white;
+  font-size: 20px;
+}
+.nav-link:hover{
+  color: orangered;
+}
+.nav-bar
+{
+    height: 50px;
+}
+.port1
+{
+        position: fixed;
+        top: 0;
+        right: 4px;
+        height: 50px;
+        width: 200px;
+
+}  
+#AboutMe
+{
+  height: 500px;
+}
+h2{
+    font-family: "Trirong",sans-serif;
+}
+.fdiv h2 span{
+  color: orangered;
+}
+h1.port {
+    font-size: 0;
+   
+}
+h1.port:before {
+    content: 'Port';
+    color:white;
+    font-size: 40px;
+    font-family:"Century";
+}
+h1.port:after {
+    content: 'folio';
+    color: orangered;
+    font-size: 40px;
+    font-family:"Century"
+}
+.fdiv {
+    display: block;
+    color: white;
+    width: 700px;
+    height: 100px;
+    padding-left: 100px;
+    padding-top: 100px ;
+    
+  }
+.pdiv
+{
+  font-size: 23px;
+    display: block;
+    color: white;
+    width: 710px;
+    height: 100px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+body {
+    background-image: linear-gradient( 90deg, black , rgb(70, 68, 68));
+    position: relative;
+  }
+.imgdiv
+{
+position: absolute;
+        top: 150px;
+        right: 200px;
+        
+}
+#Img {
+    border-radius: 30%;
+    border-color: orangered;
+  }
+.skill
+{
+    display: block;
+    color:white;
+    width: 100%;
+    height: 100px;
+}
+#skills
+{
+  font-family: 'Trirong',sans-serif;
+}
+.tskill
+{
+    display: block;
+    color:orangered;
+    width: 600px;
+    height: 25px;
+    padding-left: 150px;
+    font-size: 30px;
+}
+#tdiv
+{
+  width:30%;
+padding-left: 30px;
+padding-top: 100px;
+
+}
+#sdiv
+{
+  position: absolute;
+  top: 950px;
+  left: 60%;
+  padding-left: 100px;
+}
+#tul {
+  color: white;
+  padding-left: 30%; 
+    list-style-type: none;
+    font-size: 20px;  
+    
+}
+#sul
+{
+  color: white;
+  padding-left: 25%;
+  list-style-type: none;
+  font-size: 20px;
+}
+#Askills
+{
+  height:1000px;
+}
+#idiv
+{
+  position: absolute;
+  top:930px;
+  left :40%;
+}
+#imgs
+{
+  border-radius: 50%;
+  width: 300px;
+height: 300px;
+}
+/*project css*/
+
+#proh1
+{
+font-family: 'Sirin Stencil';
+
+}
+#p1
+{
+  position: absolute;
+  top: 1600px;
+  left: 10%;
+}
+#p2
+{
+position : absolute;
+top: 2100px;
+left: 50%
+}
+#p1lines
+{
+  color: white;
+  position: absolute;
+  padding-left:50%;
+  top: 1600px;
+}
+#p2lines
+{
+  color: white;
+  position: absolute ;
+  top: 2100px;
+  left:10%;
+  width: 40%
+}
+.pdt
+{
+  color: orangered;
+  font-size: 30px;
+}
+.pd
+{
+  font-size: 20px;
+  
+}
+/*---------css for responsive-------------
+@media only screen and (max-width:600px)
+{
+
+}*/
+
+/*contact me*/
+#conth1
+{
+  font-family: 'Sirin Stencil';
+  
+  color: white;
+  position: absolute;
+  top:2500px;
+  left: 630px;
+}
+.container {
+  position: absolute;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   top: 2600px;
+   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  height: 70px;
+  width: 70px;
+  
+  border-radius: 35px;
+  text-align: center;
+  margin: 7px;
+  line-height: 80px;
+}
+
+a i {
+  transition: all 0.3s linear;
+  color: orangered;
+}
+
+a:hover i {
+  transform: scale(1.5);
+}
+
+
+.twitter:hover {
+  color: #00adb5;
+}*/
+
+.github:hover {
+  color: black;
+}
+
+.linkedin:hover {
+  color: #04009a;
+}
+
+#ep
+{
+  position: absolute;
+  top: 2650px;
+  color: orangered;
+  padding-left: 42%;
+}
+#cr
+{
+  position: absolute;
+  top: 2700px;
+  color: white;
+  padding-left: 45%;
+}
+
